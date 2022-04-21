@@ -1,5 +1,10 @@
 name: Workflow Run Action
 on:
+  workflow_dispatch:
+    inputs:
+      release_notes:
+        description: "release notes"
+        required: true
   workflow_run:
     workflows:
       # - Main Action
