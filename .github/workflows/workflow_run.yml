@@ -2,7 +2,8 @@ name: Workflow Run Action
 on:
   workflow_run:
     workflows:
-      - Main Action
+      # - Main Action
+      - ESLint
     types:
       - requested
       - completed
