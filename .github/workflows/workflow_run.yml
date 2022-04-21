@@ -3,7 +3,8 @@ on:
   workflow_run:
     workflows:
       # - Main Action
-      - ESLint
+      # - ESLint
+      - GitHub Actions / ESLint
     types:
       - requested
       - completed
