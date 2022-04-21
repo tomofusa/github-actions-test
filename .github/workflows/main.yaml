@@ -1,9 +1,10 @@
 name: Main Action
-on: workflow_dispatch
-  inputs:
-    name:
-      description: 'Name'
-      required: true
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Name'
+        required: true
 
 jobs:
   main:
