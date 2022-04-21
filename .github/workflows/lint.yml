@@ -40,3 +40,7 @@ jobs:
         with:
           eslint: true
           # prettier: true
+
+      # fail workflow if including error
+      - name: Run lint
+        run: npm run lint
