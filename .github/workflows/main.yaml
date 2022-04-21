@@ -1,0 +1,17 @@
+name: Main Action
+on: workflow_dispatch
+  inputs:
+    name:
+      description: 'Name'
+      required: true
+
+jobs:
+  main:
+    name: Hello World
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Hello World
+        uses: docker://alpine:latest
+        with:
+          entrypoint: /bin/echo
+          args: Hello, World!
