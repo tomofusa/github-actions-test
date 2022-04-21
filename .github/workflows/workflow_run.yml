@@ -7,7 +7,7 @@ on:
         required: true
   workflow_run:
     workflows:
-      # - Main Action
+      - Main Action
       # - ESLint
       # - GitHub Actions / ESLint
       - Lint
