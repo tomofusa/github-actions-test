@@ -4,7 +4,8 @@ on:
     workflows:
       # - Main Action
       # - ESLint
-      - GitHub Actions / ESLint
+      # - GitHub Actions / ESLint
+      - Lint
     types:
       - requested
       - completed
